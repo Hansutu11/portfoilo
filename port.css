@@ -1,0 +1,33 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: purple;
+}
+
+.header{
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+}
+.main_content{
+  width: 100%;
+  border-radius: 10px;
+  outline: 1px dotted yellow;
+}
+.footer img{
+ display: inline-block;
+ margin: 10px;
+}
+.container{
+  width: 970px;
+  background-color: grey;
+}
+
+#box-1, #box-2, #box-3{
+	background-color: green;
+	width: 10px;
+  height: 10px;
+	border: 1px solid black;
+	margin: 0 20px;
+
+}
