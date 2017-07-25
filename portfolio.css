@@ -1,0 +1,122 @@
+/*body *{
+  border: 1px dotted red;
+  padding: 0px;
+  margin: 0px;*/
+}
+.wrapper{
+  width: 960px;
+  height: 912px;
+}
+.header{
+  width: 931px;
+  height: 30px;
+  padding: 15px;
+  background-color: #fafafa;
+}
+.header h2{
+  display: inline-block;
+  margin-right: 516px;
+}
+.header h3{
+  display: inline-block;
+}
+.main_content{
+  width: 929px;
+  height: 880px;
+  padding: 10px 15px;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, #6f5964, #1f0f13); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, #6f5964, #1f0f13); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, #6f5964, #1f0f13); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, #6f5964, #1f0f13); /* Standard syntax */
+}
+.main_content img{
+  width: 420px;
+  height: auto;
+  border: 5px solid #7d7377;
+}
+.main_content .Me {
+  width: 459px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f2edf2;
+  height: 285px;
+}
+.main_content .Me h2{
+  background-color: #8f8d99;
+}
+.main_content p{
+  margin-bottom: 25px;
+}
+.main_content .projects{
+
+  display: inline-block;
+  width: 294px;
+  height: 545px;
+  background-color: #8f8d99;
+  vertical-align: top;
+
+}
+.main_content .projects .spacing{
+  margin-right: 15px;
+  background-color: #8f8d99;
+
+
+}
+.projects spacing{
+  margin: 0px;
+}
+.projects img{
+  border: none;
+}
+.footer{
+  width: 959px;
+  height: 50px;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+
+.footer img{
+  width: 25px;
+  height: 20px;
+  display: inline-block;
+  padding-left: 7px;
+
+
+}
+.projects img,
+.projects p,
+.projects ul{
+  width: 293px;
+  margin: 0;
+}
+.projects h2{
+  width: 293px;
+  margin: 0px;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #a3a2a9 , #898794); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #a3a2a9, #898794); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #a3a2a9, #898794); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #a3a2a9, #898784); /* Standard syntax */
+/*#a3a2a9, #898794*/
+}
+
+
+.projects button{
+  background-color: green;
+  color: white;
+  border: solie 1px black;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px 100px;
+}
+
+.tech_img img{
+  width: 40px;
+  height: 40px;
+}
+.tech_img li{
+    display: inline-block;
+    margin-right: 10px;
+}
